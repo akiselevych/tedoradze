@@ -1,0 +1,64 @@
+@import "@/styles/variables";
+.container {
+    @include pageWrapper;
+}
+.content {
+    @include pageContent;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    @media (max-width: $tabletSize) {
+        margin-top: 112px;
+        gap: 48px;
+        flex-direction: column;
+    }
+}
+.leftCol {
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: $tabletSize) {
+        width: 100%;
+    }
+}
+.subTitle {
+    color: #828282;
+}
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rightCol {
+    max-width: 600px;
+    width: 55%;
+    @media (max-width: $tabletSize) {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.userInfoBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.userDataTextBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}

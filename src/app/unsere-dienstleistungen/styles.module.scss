@@ -1,0 +1,129 @@
+@import "@/styles/variables";
+
+.pageWrapper {
+    background: url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/waves.svg")
+            right 0 top -110px /1500px no-repeat,
+        //RADIANS
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            right top/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 200px top 100px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 200px top 600px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 0 top 800px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            right 0px top 600px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            right 0 bottom 0px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 100px bottom 200px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 100px bottom 500px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            right 0px bottom 600px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 100px bottom 800px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 100px bottom 900px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            right 300px bottom 1000px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            right 300px bottom 2000px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            right 0px bottom 2800px/ 600px 500px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+            left 0px bottom 3200px/ 600px 500px no-repeat,
+        //FIGURES
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+            right 0px top 0px/ 60px 50px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+            center top 100px/ 60px 50px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+            right 150px top 380px/ 130px 130px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+            right 300px bottom 600px/ 130px 130px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+            left 200px top 900px/ 130px 130px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+            left 300px bottom 200px/ 130px 130px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/atom1.svg")
+            left 100px top 200px/ 50px 60px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/atom1.svg")
+            right 100px top 700px/50px 60px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/atom1.svg")
+            right 100px top 2200px/ 50px 60px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2circles.svg")
+            right 0px bottom 2200px/ 50px 60px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2circles.svg")
+            left 100px top 500px/ 50px 60px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+            center bottom 1000px/ 79px 40px no-repeat,
+        url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+            center center/ 70px 40px no-repeat;
+
+    @media (max-width: $tabletSize) {
+        background: url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/waves.svg")
+                right 0 top -110px /1500px no-repeat,
+            //RADIANS
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                right top/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 200px top 100px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 200px top 600px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 0 top 800px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                right 0px top 600px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                right 0 bottom 0px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 100px bottom 200px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 100px bottom 500px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                right 0px bottom 600px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 100px bottom 800px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 100px bottom 900px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                right 300px bottom 1000px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                right 300px bottom 2000px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 300px bottom 2500px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                right 0px bottom 2800px/ 300px 200px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/radian.svg")
+                left 0px bottom 3200px/ 300px 200px no-repeat,
+            //FIGURES
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+                right 0px top 0px/ 30px 250px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+                center top 100px/ 30px 250px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+                right 150px top 380px/ 70px 70px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+                right 300px bottom 600px/ 70px 70px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+                left 200px top 900px/ 70px 70px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/donat.svg")
+                left 300px bottom 200px/ 30px 40px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/atom1.svg")
+                left 100px top 200px/ 30px 40px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/atom1.svg")
+                right 100px top 700px/ 30px 40px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/atom1.svg")
+                right 100px top 2200px/ 30px 40px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2circles.svg")
+                right 0px bottom 2200px/ 91px 61px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2circles.svg")
+                left 100px top 500px/ 91px 61px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+                center bottom 1000px/ 130px 130px no-repeat,
+            url("https://icap-group-images.fra1.cdn.digitaloceanspaces.com/tedoradze-website/backgroundImages/2stars.svg")
+                center center/ 30px 40px no-repeat;
+    }
+}

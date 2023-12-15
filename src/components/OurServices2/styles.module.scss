@@ -1,0 +1,57 @@
+@import "@/styles/variables";
+
+.container {
+    @include pageWrapper;
+}
+.content {
+    @include pageContent;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    @media (max-width: $tabletSize) {
+        margin-top: 112px;
+        gap: 48px;
+    }
+}
+
+.titleBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    @media (max-width: $tabletSize) {
+        margin-bottom: 32px;
+    }
+}
+.subTitle {
+    color: #828282;
+}
+.cardBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    @media (max-width: $tabletSize) {
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+.leftCol,
+.rightCol {
+    width: 50%;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    @media (max-width: $tabletSize) {
+        width: 100%;
+    }
+}
+.leftCol {
+    align-items: flex-end;
+}
+.rightCol {
+    align-items: flex-start;
+}

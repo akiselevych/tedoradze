@@ -1,0 +1,37 @@
+@import "@/styles/variables";
+
+.container {
+    @include pageWrapper;
+}
+.content {
+    @include pageContent;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    @media (max-width: $tabletSize) {
+        margin-top: 112px;
+        gap: 48px;
+    }
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    @media (max-width: $tabletSize) {
+        margin-bottom: 32px;
+    }
+}
+.cardBlock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    @media (max-width: $tabletSize) {
+        gap: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+$Black: #0f0f0f;
+$BGblack: #17110c;
+$White: #fff;
+$Orange: #df9161;
+$darkOrange: #be7e57;
+$Grey: #9fa5b9;
+
+$tabletSize: 768px;
+$mobileSize: 425px;
+
+@mixin pageWrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+@mixin pageContent {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1226px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

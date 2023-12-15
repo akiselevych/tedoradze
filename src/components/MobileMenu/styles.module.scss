@@ -1,0 +1,27 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100vw;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #0a0703;
+}
+.navBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.navItem {
+}
+.activeLink {
+    border-bottom: 1px solid $Orange;
+    width: max-content;
+}

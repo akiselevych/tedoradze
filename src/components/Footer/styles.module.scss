@@ -1,0 +1,101 @@
+@import "@/styles/variables";
+
+.container {
+    @include pageWrapper;
+    background-color: #000;
+    color: #fff;
+    margin-top: 128px;
+}
+.content {
+    @include pageContent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    @media (max-width: 902px) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+.navBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    @media (max-width: 902px) {
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+.bottomBlock {
+    text-align: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    @media (max-width: 902px) {
+        gap: 8px;
+    }
+}
+.colTitle {
+    margin-bottom: 10px;
+    @media (max-width: 902px) {
+        margin-bottom: 4px;
+    }
+}
+.colItem {
+    cursor: pointer;
+    width: max-content;
+    max-width: 100%;
+}
+.FirstColumn {
+    max-width: 204px;
+    gap: 32px;
+    @media (max-width: 902px) {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+.secondCol {
+    max-width: 204px;
+}
+.thirdCol {
+    max-width: 266px;
+}
+.fourthCol {
+    max-width: 246px;
+}
+.mobileMenu {
+    display: none;
+    @media (max-width: 624px) {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+.logoLink {
+    height: 64px;
+    width: 64px;
+    img {
+        height: 64px;
+        width: 64px;
+    }
+}
+.activeLink {
+    border-bottom: 1px solid #fff;
+}
+.linkedin {
+    width: 24px;
+    height: 24px;
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
